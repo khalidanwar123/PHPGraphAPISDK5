@@ -3,8 +3,8 @@ session_start();
 define('FACEBOOK_SDK_V4_SRC_DIR', __DIR__ . '/facebook-sdk-v5/');
 require_once FACEBOOK_SDK_V4_SRC_DIR . 'autoload.php';
 $fb = new Facebook\Facebook([
-  'app_id' => '1679016079051174',
-  'app_secret' => '6b8ad4dc9978ba2f08598670eba2dede',
+  'app_id' => 'your_facebook_app_id',
+  'app_secret' => 'your_facebook_app_id',
   'default_graph_version' => 'v2.2',
   ]);
 
